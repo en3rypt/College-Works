@@ -1,0 +1,91 @@
+create table Instructor(ID integer primary key,Name varchar(20) not null, Dept_name varchar(20),salary integer check(salary>=40000 and salary <= 95000));
+
+Insert into Instructor values(22222,'Einstein','Physics',95000);
+Insert into Instructor values(12121,'Wu','Finance',90000);
+Insert into Instructor values(32343,'El Said','History',60000);
+Insert into Instructor values(45565,'Katz','Comp Sci',75000);
+Insert into Instructor values(98345,'Kim','Elec Eng',80000);
+Insert into Instructor values(76766,'Crick','Biology',72000);
+Insert into Instructor values(10101,'Srinivasan','Comp Sci',65000);
+Insert into Instructor values(58583,'Califieri','History',62000);
+Insert into Instructor values(83821,'Brandt','Comp Sci',92000);
+Insert into Instructor values(15151,'Mozart','Music',40000);
+Insert into Instructor values(33456,'Gold','Physics',87000);
+Insert into Instructor values(76543,'Singh','Finance',80000);
+
+
+
+create table department(dedpt_name varchar(20),building varchar(20),budget integer);
+
+
+
+Insert into department values('Computer science','Taylor',100000);
+Insert into department values('Biology','Watson',90000);
+nsert into department values('Electrical Eng.','Taylor',85000);
+Insert into department values('Music','Packard',80000);
+Insert into department values('Finance','Painter',120000);
+Insert into department values('History','painter',50000);
+Insert into department values('Physics','Watson',70000);
+
+
+
+
+Q1)
+SELECT * FROM instructor;
+
+Q2)
+select * from instructor where ID = 15151;
+
+Q3)
+SELECT * FROM instructor WHERE Name LIKE 'k%';
+
+Q4)
+SELECT * FROM instructor WHERE Name LIKE '%i%';
+
+Q5)
+SELECT * FROM instructor ORDER BY Dept_name;
+
+Q6)
+SELECT * FROM instructor ORDER BY name ASC, Dept_name DESC;
+
+Q7)
+SELECT * FROM instructor ORDER BY salary ASC, Name ASC;
+
+Q8)
+SELECT * FROM instructor WHERE salary BETWEEN 40000 and 50000;
+
+Q9)
+SELECT DISTINCT Dept_name FROM instructor ORDER BY Dept_name DESC;
+
+Q10)
+SELECT Name,ID from instructor where Dept_name = "Physics";
+
+Q11)
+SELECT Name,(salary+(salary*5/100)) AS salary FROM instructor;
+
+Q12)
+select Name,salary,(salary*12) as annual_salary, (salary*(3/100)*12) as Tax from instructor ORDER BY salary DESC;
+
+Q13)
+UPDATE instructor SET salary = 95000 WHERE ID = 33456;
+
+Q14)
+-*-
+
+Q15)
+DELETE FROM instructor WHERE ID = 76543;
+
+Q16)
+SELECT * FROM instructor WHERE  Name LIKE "%i%"  AND salary > 70000;
+
+Q17)
+SELECT * FROM instructor WHERE Dept_name IN ('history','Finance','Biology');
+
+Q18)
+SELECT ID,salary FROM instructor WHERE Name LIKE '____';
+
+Q19)
+ALTER TABLE instructor DROP Dept_name;
+
+Q20)
+ALTER TABLE instructor ADD COLUMN contact_number BIGINT NOT NULL UNIQUE;

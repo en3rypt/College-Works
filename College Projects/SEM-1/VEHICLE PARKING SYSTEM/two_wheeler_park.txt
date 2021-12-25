@@ -1,0 +1,6 @@
+################################
+Contact Number: 9876543211
+Vehicle Type: Two Wheeler
+Vehicle Number: 4567
+Slot Number: 0
+################################

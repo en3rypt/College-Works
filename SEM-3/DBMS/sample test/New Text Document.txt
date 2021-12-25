@@ -1,0 +1,15 @@
+create table employee
+(
+    eno varchar(5) primary key,
+    ename char(25) not null,
+    gender char(10),
+    salary float(15),
+    dname char(25),
+    loc char(20),
+    dob date,
+    doj date,
+    check (ascii(left(ename, 1)) BETWEEN ascii('A') and ascii('Z')),
+    check (salary>=18000 and salary<=30000),
+    check (dname in ('Administration','Research','Headquarters'))
+);
+

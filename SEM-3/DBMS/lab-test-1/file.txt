@@ -1,0 +1,25 @@
+Braund,Mr. Owen Harris,M,	22,	3,	7.25,	Southampton,	no
+Cumings	,Mrs. John Bradley (Florence Briggs Thayer),	F,	38,	1	,71.2833,	Cherbourg,	yes
+Heikkinen,	Miss Laina,	F,	26,	3,	7.925,	Southampton,	yes,
+Futrelle,	Mrs. Jacques Heath (Lily May Peel),	F,	35,	1,	53.1,	Southampton,	yes,
+Reuchlin,	Jonkheer. John George,	M,	38,	1,	0,	Southampton,	no,
+Allen,	Mr. William Henry,	M,	35,	3,	8.05,	Southampton,	no
+Moran,	Mr. James,	M,	null,	3,	8.4583,	Queenstown,	no
+McCarthy,	Mr. Timothy J,	M,	54,	1,	51.8625	,Southampton,no
+Palsson,	Master Gosta Leonard,	M,	2,	3,	21.075,	Southampton,	no
+Johnson,	Mrs. Oscar W (Elisabeth Vilhelmina Berg),	F,	27,	3,	11.1333,	Southampton,	yes
+Fry,	Mr. Richard,	M,	null,	1,	0,	Southampton,	no
+Nasser,	Mrs. Nicholas (Adele Achem),	F,	14,	2	,30.0708,	Cherbourg,	yes
+Sandstrom,	Miss Marguerite Rut,	F,	4,	3,	16.7,Southampton,	yes
+Bonnell,	Miss Elizabeth,	F,	58,	1,	26.55	,Southampton,	yes
+Saundercock,	Mr. William Henry,	M,	20,	3,	8.05,	Southampton,	no
+Andersson,	Mr. Anders Johan,	M	,39,	3,	31.275,	Southampton,	no
+Vestrom,	Miss Hulda Amanda Adolfina,	F,	14,	3,	7.8542,	Southampton,	no
+Hewlett,	Mrs. (Mary D Kingcome),	F,	55,	2,	16,	Southampton,	yes
+Rice,	Master Eugene,	M,	2,	3,	29.125,	Queenstown,	no
+Williams,	Mr. Charles Eugene,	M	,null	,2,	13,	Southampton,	yes
+Vander Planke,	Mrs. Julius (Emelia Maria Vandemoortele),	F,	31,	3,	18,	Southampton,	no
+Masselmani,	Mrs. Fatima,	F,	null,	3,	7.225,	Cherbourg,	yes
+Fynney,	Mr. Joseph J,	M,	35,	2,	26,	Southampton,	no
+Beesley,	Mr. Lawrence,	M,	34,	2,	13	,Southampton,	yes
+McGowan,	 Miss Anna "Annie",	F,	15,	3,	8.0292,	Queenstown,	yes

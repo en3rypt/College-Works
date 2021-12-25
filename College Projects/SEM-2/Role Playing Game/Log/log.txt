@@ -1,0 +1,34 @@
+[jass] created successfully.
+[sant] created successfully.
+[jass] initiated the battle against [sant].
+[jass] 's turn ...
+[jass] 's attacked.
+[sant] 's turn ...
+[sant] 's surrendered.
+The winner of the battle is [jass].
+[jass] is awarded with 5000 XP and 5000 Credits.
+Battle ended.
+Game started at Wed May 12 11:56:55 2021
+
+[jass] data imported successfully.
+[sant] imported successfully.
+[jass] initiated the battle against [sant].
+[jass] 's turn ...
+[jass] 's attacked.
+[sant] 's turn ...
+[sant] 's surrendered.
+The winner of the battle is [jass].
+[jass] is awarded with 5000 XP and 5000 Credits.
+Battle ended.
+
+
+Game started at Wed May 12 11:59:19 2021
+
+[jass] data imported successfully.
+[sant] created successfully.
+[jass] initiated the battle against [sant].
+[jass] 's turn ...
+[jass] 's surrendered. 
+The winner of the battle is [sant].
+[sant] is awarded with 5000 XP and 5000 Credits.
+Battle ended.

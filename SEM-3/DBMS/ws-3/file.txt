@@ -1,0 +1,13 @@
+5001 Aashish Coimbatore 21-aug-75 M 09-apr-90 40000 Admin
+5002 Varshith Madurai 09-apr-70 M 14-jul-99 50000 Acc
+5003 Dony Delhi 12-jun-66 M 06-jun-98 39000 Acc
+5004 Priya Bombay 15-dec-58 F 13-apr-70 140000 Admin
+5005 Madhu Delhi 14-jul-67 F 16-jun-78 39000 Acc
+5006 Lashmi Bombay 11-dec-68 F 23-apr-71 100000 Prod
+5007 Arjun Coimbatore 21-aug-75 M 06-AUG-99 40000 Admin
+5008 Robert Coimbatore 09-apr-70 M 07-DEC-99 50000 Acc
+5009 Smyth Ooty 12-jun-66 M 05-JAN-05 39000 Acc
+5010 Mary Salem 15-dec-58 F 09-FEB-01 140000 Admin
+5011 Rani Vellore 14-jul-67 F 06-MAR-80 39000 Acc
+5012 Xavier Trichy 11-dec-68 F 04-MAY-05 100000 Prod
+5013 Arjun chennai 14-jul-67 M 09-FEB-01 140000 Acc
