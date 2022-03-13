@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    font-family: Helvetica;
+    background-color: #DBE8F9;
+}
+table{
+    
+    width: 100%;
+
+}
+
+table,td,th {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+.btn{
+    background-color:#326495;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+</style>
+    <body>
+        <form action="" method="get">
+            <table style="border:0;">
+                <tr>
+                    <td  style="border:0;"  align="center"><h1>Ticket Reservation</h1></td>
+                </tr>
+                <tr>
+                    <td  style="border:0;" align="right"><sup>*</sup>mandatory</td>
+                </tr>
+                <tr>
+                    <td style="border: 0;">
+                        <table style="padding-left: 1rem;">
+                            <tr>
+                                <td><strong>Train No</strong></td>
+                                <td>2952</td>
+                                <td><strong>Train Name</strong></td>
+                                <td>MUMBAI RAJDHANI</td>
+                            </tr>
+                            <tr>
+                                <td><strong>FROM</strong></td>
+                                <td>NDLS</td>
+                                <td><strong>To</strong></td>
+                                <td>BCT</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Date</strong></td>
+                                <td>02-Jul-2007</td>
+                                <td><strong>Class</strong></td>
+                                <td>AC 2-tier sleeper(2A)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Boarding Point</strong></td>
+                                <td><input type="text" name="" placeholder="NDLS"></td>
+                                <td><strong>Reservation Upto</strong></td>
+                                <td>BCT</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Quota</strong></td>
+                                <td colspan="3">
+
+                                    <input  type="radio" name="opinion" value="1">
+                                    <label for="1">General</label>&nbsp&nbsp&nbsp&nbsp
+                                    <input class="padding-left:20px;" type="radio" name="opinion" value="2">
+                                    <label  for="2">Ladies</label><br> 
+                                
+                                </td>
+                                
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td  style="border:0;">
+                        <strong>Passengers Details</strong><br>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<strong>1:Select your Travel List</strong><br>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<strong>2:Select Passengers from your Master List</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 0;">
+                        <table style="width:100%;">
+                            <tr>
+                                <th>SNo</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Sex</th>
+                                <th>Berth Preference</th>
+                                <th>Food Preference</th>
+                                <th>Senior Citizen</th>
+                            </tr>
+                            <tr>
+                                <td align="center">1</td>
+                                <td><input  style="width:95%;" type="text" name="" id=""></td>
+                                <td width="10px"><input type="number" name="" id=""></td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Berth" id="Berth">
+                                        <option value="Choose Berth">Choose Berth</option>
+                                        <option value="Upper">Upper</option>
+                                        <option value="Middle">Middle</option>
+                                        <option value="Lower">Lower</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </td>
+                                <td align="center">
+                                    <input type="checkbox" name="senior-citizen" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">2</td>
+                                <td><input  style="width:95%;" type="text" name="" id=""></td>
+                                <td width="10px"><input type="number" name="" id=""></td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Berth" id="Berth">
+                                        <option value="Choose Berth">Choose Berth</option>
+                                        <option value="Upper">Upper</option>
+                                        <option value="Middle">Middle</option>
+                                        <option value="Lower">Lower</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </td>
+                                <td align="center">
+                                    <input type="checkbox" name="senior-citizen" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">3</td>
+                                <td><input  style="width:95%;" type="text" name="" id=""></td>
+                                <td width="10px"><input type="number" name="" id=""></td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Berth" id="Berth">
+                                        <option value="Choose Berth">Choose Berth</option>
+                                        <option value="Upper">Upper</option>
+                                        <option value="Middle">Middle</option>
+                                        <option value="Lower">Lower</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </td>
+                                <td align="center">
+                                    <input type="checkbox" name="senior-citizen" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">4</td>
+                                <td><input  style="width:95%;" type="text" name="" id=""></td>
+                                <td width="10px"><input type="number" name="" id=""></td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Berth" id="Berth">
+                                        <option value="Choose Berth">Choose Berth</option>
+                                        <option value="Upper">Upper</option>
+                                        <option value="Middle">Middle</option>
+                                        <option value="Lower">Lower</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </td>
+                                <td align="center">
+                                    <input type="checkbox" name="senior-citizen" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">5</td>
+                                <td><input  style="width:95%;" type="text" name="" id=""></td>
+                                <td width="10px"><input type="number" name="" id=""></td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Berth" id="Berth">
+                                        <option value="Choose Berth">Choose Berth</option>
+                                        <option value="Upper">Upper</option>
+                                        <option value="Middle">Middle</option>
+                                        <option value="Lower">Lower</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </td>
+                                <td align="center">
+                                    <input type="checkbox" name="senior-citizen" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">6</td>
+                                <td><input  style="width:95%;" type="text" name="" id=""></td>
+                                <td width="10px"><input type="number" name="" id=""></td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Berth" id="Berth">
+                                        <option value="Choose Berth">Choose Berth</option>
+                                        <option value="Upper">Upper</option>
+                                        <option value="Middle">Middle</option>
+                                        <option value="Lower">Lower</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width: 100%;" name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </td>
+                                <td align="center">
+                                    <input type="checkbox" name="senior-citizen" id="">
+                                </td>
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border:0;">
+                        <input type="checkbox" name="" id="">
+                        <Label><strong>Consider for Auto Upgradation</strong></Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 0;">
+                        <table>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <strong>Photo ID card details</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <strong>
+                                        Please enter the photo identity card particulars of one of the passengers. Please ensure that this passenger carries the same Original identity card while travelling.If not this will
+                                        be treated as ticket less travelling. <br>
+                                        Please enter only the serial number of your Photo -ID cards, without any special characters like /,~,.,#, etc.For instance, if your driving licence number is E/T-N/058/#A00649/2005, please enter only A00649
+                                        Photo Identity card holder*
+                                    </strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:50%;">Photo Identity card holder <sup>*</sup></td>
+                                <td style="width:50%;">
+                                    <select  name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:50%;">ID card Type <sup>*</sup></td>
+                                <td style="width:50%;">
+                                    <select  name="Gender" id="Gender">
+                                        <option value="Select">Select</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ID Card No <sup>*</sup></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>Issuing Authority <sup>*</sup></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" style="border:0;">
+                        <input class="btn" type="button" value="Go">
+                        <input class="btn" type="reset" value="Reset">
+                        <input class="btn" type="button" value="Replan">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

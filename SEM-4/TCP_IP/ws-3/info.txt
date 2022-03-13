@@ -1,0 +1,10 @@
+sanjith:0.0
+jass:100.0
+qwerty:0.0
+san:0.0
+werty:0.0
+sqw:0.0
+qwert:0.0
+sanjit:0.0
+sanj:0.0
+sant:0.0

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+</head>
+<style>
+.center{
+    text-align: center;
+}
+.btn{
+    background-color: darkgreen;
+    color: white;
+}
+.brown{
+    color: brown;
+}
+td{
+
+    vertical-align: top;
+}
+</style>
+<body>
+    <h1 class="center brown">FEEDBACK</h1>
+    <p>You can help us to improve our website by using the following form to let us know what you think or what needs to be changed.</p>
+    <form action="#">
+        <table align="center">
+            <tr>
+                <td><label>Name:</label></td>
+                <td> <input type="text" name="Name" id=""></td>
+            </tr>
+            <tr>
+                <td><label>Email address:</label></td>
+                <td> <input type="email" name="Name" id=""></td>
+            </tr>
+
+            <tr>
+                <td><label>Are you a club member: </label></td>
+                <td> <input type="checkbox" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label>Your age: </label></td>
+                <td> <input type="radio" id="lt20" name="age_input" value="lt20">
+                    <label for="lt20">&lt;=20</label><br>
+                    <input type="radio" id="_21-30" name="age_input" value="_21-30">
+                    <label for="_21-30">21-30</label><br>
+                    <input type="radio" id="_31-40" name="age_input" value="_31-40">
+                    <label for="_31-40">31-40</label><br>
+                    <input type="radio" id="gt40" name="age_input" value="gt40">
+                    <label for="gt40">&gt;40</label>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="state">Your state:</label></td>
+                <td>
+                    <select name="state" id="state">
+                      <option value="Tamil Nadu">Tamil Nadu</option>
+                      <option value="Kerala">Kerala</option>
+                      <option value="Delhi">Delhi</option>
+                      <option value="Karnataka">Karnataka</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><Label>how did you find our state:</Label></td>
+                <td><textarea id="how-did-you" name="how-did-you" rows="4" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td><Label>Site suggestions:</Label></td>
+                <td><textarea id="site-suggestion" name="site-suggestion" rows="4" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td><Label>Other comments:</Label></td>
+                <td><textarea id="other comments" name="other comments" rows="4" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input class="btn" type="submit" value="Submit">
+                <input class="btn" type="reset" value="Reset">
+            </td>
+                                
+            </tr>
+        </table>
+        
+    </form>
+
+</body>
+</html>
+

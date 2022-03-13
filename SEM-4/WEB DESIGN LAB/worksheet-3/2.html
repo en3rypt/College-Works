@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+</head>
+<style>
+body{
+    font-family:Helvetica;
+    
+}
+
+.light{
+    font-weight: lighter;
+
+}
+.custom-width{
+    width: 50%;
+}
+td{
+    padding: 0.8rem;
+    padding-left: 0;
+    vertical-align: top;
+}
+sup{
+    color: red;
+}
+.btn{
+    background-color:blue;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.bg{
+    background-color: lightblue;
+}
+.bd{
+    border: 1px;
+    border-style: solid;
+    border-color: lightblue;
+}
+</style>
+<body>
+    <form action="" method="get">
+        <table class="bd">
+            <tr class="bg" style="padding: 0;">
+                <td colspan="2">
+                    <strong>Customer Feedback</strong>
+                </td>
+            </tr>
+            <tr><td colspan="2" style="padding:0;margin: 0;"><p class="light"><i>Thank you for choosing to send us your valuable feedback</i></p></td></tr>
+            <tr>
+                <td style="width:50%;">
+                    <table>
+                        <tr>
+                            <td colspan="2"><p class="light"><i>You are encouraged to use the onlince feedback for below to send us your valuable comments and suggestions as well as any queries about our products  and services that you may have.</i></p></td>
+                        </tr>
+                        <tr>
+                            <td style="width:40%;"><strong>Customer Name<sup>*</sup></strong></td>
+                            <td style="width:60%;"> <input type="text" name="Name" id=""></td>
+                        </tr>
+                        <tr>
+                            <td style="width:40%;"><strong>E-mail Address<sup>*</sup></strong></td>
+                            <td style="width:60%;"> <input type="email" name="Name" id=""></td>
+                        </tr>
+                        <tr>
+                            <td style="width:40%;"><strong>Organisation</strong></td>
+                            <td style="width:60%;"> <input type="text" name="Name" id=""></td>
+                        </tr>
+                        <tr>
+                            <td style="width:40%;"><strong>How would you rate your opinion of our company?</strong></td>
+
+                            <td style="width:60%;">
+
+                                <input type="radio" name="opinion" value="vhigh">
+                                <label for="vhigh">Very High</label><br>
+                                <input type="radio" name="opinion" value="High">
+                                <label for="High">High</label><br> 
+                                <input type="radio" name="opinion" value="neutral">
+                                <label for="neutral">Neutral</label><br>
+                                <input type="radio" name="opinion" value="low">
+                                <label for="low">Low</label><br>
+                                <input type="radio" name="opinion" value="vlow">
+                                <label for="vlow">Very Low</label>
+                            </td> 
+                        </tr>
+
+                        <tr>
+                            <td style="width:40%;"><strong>How reasonable do you find our costs/rates to be?</strong></td>
+
+                            <td style="width:60%;">
+
+                                <input type="radio" name="opinion" value="1">
+                                <label for="1">Very Reasonable</label><br>
+
+                                <input type="radio" name="opinion" value="2">
+                                <label for="2">Reasonable</label><br> 
+
+                                <input type="radio" name="opinion" value="3">
+                                <label for="3">Average</label><br>
+
+                                <input type="radio" name="opinion" value="4">
+                                <label for="4">A Big high</label><br>
+
+                                <input type="radio" name="opinion" value="5">
+                                <label for="5">Unreasonable</label>
+                            </td> 
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:50%;">
+                    <table>
+                        <tr>
+                            <td style="width:30%;"><strong>How would you rate our customer support support? <sup>*</sup></strong></td>
+                            <td style="width:70%;">
+                                <input type="radio" name="opinion" value="1">
+                                <label for="1">Excellent</label><br>
+                                <input type="radio" name="opinion" value="2">
+                                <label for="2">Good</label><br> 
+                                <input type="radio" name="opinion" value="3">
+                                <label for="3">Fair/Adequate</label><br>
+                                <input type="radio" name="opinion" value="4">
+                                <label for="4">Poor</label><br>
+                                <input type="radio" name="opinion" value="5">
+                                <label for="5">Terrible</label>
+                            </td> 
+                        </tr> 
+                        <tr>
+                            <td><strong>How willing are you to recommend our ompany to others?</strong></td>
+                        
+                            <td>
+                        
+                                <input type="radio" name="opinion" value="1">
+                                <label for="1">Very Willing</label><br>
+                                <input type="radio" name="opinion" value="2">
+                                <label for="2">Willing</label><br> 
+                                <input type="radio" name="opinion" value="3">
+                                <label for="3">Neutral</label><br>
+                                <input type="radio" name="opinion" value="4">
+                                <label for="4">Unwilling</label><br>
+                                <input type="radio" name="opinion" value="5">
+                                <label for="5">Very Unwilling</label>
+                            </td> 
+                        </tr> 
+                        <tr>
+                            <td><strong>Are there any products or services we don't currently carry that you would like to see?</strong></td>
+                            <td><textarea id="site-suggestion" name="site-suggestion" rows="4" cols="25"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Do you have any comments for us(Good or Bad!):</strong></td>
+                            <td><textarea id="site-suggestion" name="site-suggestion" rows="4" cols="25"></textarea></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="bg">
+                <td colspan="2" align="center">
+                    <input class="btn" type="submit" value="Submit">
+                    <input class="btn" type="reset" value="Reset">
+                </td>                   
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
